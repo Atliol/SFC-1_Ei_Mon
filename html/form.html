@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+       h2{
+        color: rgb(17, 37, 188);
+       }
+ 
+
+    </style>
+</head>
+<body>
+    
+     <h2>Student Registration Form</h2>
+
+    <form action="./index.html" method="post">
+       
+        
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" placeholder="Enter name" name="name" required><br><br>
+        
+
+     
+        
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" placeholder="Enter address" name="address" required><br><br>
+       
+
+      
+       
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="09-259987676"><br><br>
+       
+
+      
+       
+            <label for="email">Gmail:</label><br>
+            <input type="email" id="email" name="email" placeholder="Myokyaw@gmail.com" required><br><br>
+       
+
+       
+       
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label browser="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+       
+
+     
+       
+            <label for="age">Age:</label><br>
+            <input type="text" id="age" placeholder="Enter age" name="age"><br><br>
+      
+
+        
+      
+            <label for="year">Year </label><br>
+            <input type="date" id="year" name="year"><br><br>
+        
+
+        
+        
+            <label for="description">Description:</label><br>
+            <textarea id="description" name="description"  placeholder="Tell us about yourself..."></textarea><br><br>
+       
+
+       
+            <label>Interest Language:</label><br>
+            <input type="checkbox" id="lang-html" name="language" value="html">
+            <label for="lang-html">HTML</label><br>
+            <input type="checkbox" id="lang-css" name="language" value="css">
+            <label for="lang-css">CSS</label><br>
+            <input type="checkbox" id="lang-js" name="language" value="javascript">
+            <label for="lang-js">JavaScript</label><br>
+            <input type="checkbox" id="lang-python" name="language" value="python">
+            <label for="lang-python">Python</label><br><br>
+      
+       
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+     
+    </form>
+</body>
+</html>

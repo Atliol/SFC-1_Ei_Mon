@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My student homework projects showcase">
+    <title>My Projects | Student Portfolio</title>
+
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-code"></i></span>
+                Myo<span>Kyaw Thu</span>
+            </a>
+
+          
+
+    
+
+            <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+
+            <div class="hero-content">
+                <span class="hero-label">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    Homework
+                </span>
+
+           
+
+                <div class="hero-stats">
+                    <div>
+                        <h3 id="totalProjects">00</h3>
+                        <p>Total Projects</p>
+                    </div>
+
+                    <div class="stat-divider"></div>
+
+                    <div>
+                        <h3>02</h3>
+                        <p>Technologies</p>
+                    </div>
+
+                    <div class="stat-divider"></div>
+
+                    <div>
+                        <h3>100%</h3>
+                        <p>Learning</p>
+                    </div>
+                </div>
+            </div>
+
+          
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+
+        <div class="section-container">
+
+            <div class="section-heading">
+                <div>
+                    <span class="section-label">Ma Ei Mon</span>
+                    <h2>Homework exercise<span></span></h2>
+                    <p>HTML,CSS,JAVASCRIPT,PHP</p>
+                </div>
+
+                <div class="project-count">
+                    <i class="fa-solid fa-folder-open"></i>
+                    <span id="showingCount">0 Projects</span>
+                </div>
+            </div>
+
+            <!-- Search -->
+            <div class="filter-container">
+
+                <div class="filter-buttons" id="filterButtons">
+                    <button class="filter-btn active" data-category="All">All Projects</button>
+                    <button class="filter-btn" data-category="HTML & CSS">HTML & CSS</button>
+                    <button class="filter-btn" data-category="JavaScript">JavaScript</button>
+                    <button class="filter-btn" data-category="Python">Python</button>
+                    <button class="filter-btn" data-category="Other">Other</button>
+                </div>
+
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input
+                        type="text"
+                        id="searchInput"
+                        placeholder="Search projects..."
+                    >
+                </div>
+
+            </div>
+
+            <!-- Project Cards -->
+            <div class="project-grid" id="projectGrid">
+                <!-- JavaScript will generate project cards here -->
+            </div>
+
+            <div class="empty-state" id="emptyState">
+                <i class="fa-solid fa-folder-open"></i>
+                <h3>No Projects Found</h3>
+                <p>Try searching with another keyword.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        
+
+        <div class="copyright">
+            © 2026 My Projects. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="../javascript/script.js"></script>
+</body>
+</html>
