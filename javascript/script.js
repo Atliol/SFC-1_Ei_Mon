@@ -8,42 +8,42 @@ const projects = [
         title: "eg1(nav bar)",
         description: "",
         category: "HTML & CSS",
-        image: "../images/ex1.jpg",
-        github: "https://github.com/yourusername/project1",
-        demo: "ex.html"
+        image: "./images/ex1.jpg",
+        github: "https://github.com/Atliol/SFC-1_Ei_Mon/blob/main/html/ex.html",
+        demo: "html/ex.html"
     },
     {
         title: "li,ol,p",
         description: "",
         category: "HTML & CSS",
-        image: "../images/ex1.png",
-        github: "https://github.com/yourusername/project2",
-        demo: "ex1.html"
+        image: "./images/ex1.png",
+        github: "https://github.com/Atliol/SFC-1_Ei_Mon/blob/main/html/ex1.html",
+        demo: "html/ex1.html"
     },
     {
         title: "form",
         description: "",
         category: "HTML & CSS",
-        image: "../images/form.png",
-        github: "https://github.com/yourusername/project3",
-        demo: "form.html"
+        image: "./images/form.png",
+        github: "https://github.com/Atliol/SFC-1_Ei_Mon/blob/main/html/form.html",
+        demo: "html/form.html"
     },
     {
         title: "card",
         description: "",
         category: "HTML & CSS",
-        image: "../images/ex3.jpg",
-        github: "https://github.com/yourusername/project4",
-        demo: "ex3.html"
+        image: "./images/ex3.jpg",
+        github: "https://github.com/Atliol/SFC-1_Ei_Mon/blob/main/html/ex3.html",
+        demo: "html/ex3.html"
     },
 
  {
         title: "ex5",
         description: "",
         category: "HTML & CSS",
-        image: "../images/ex4.jpg",
-        github: "https://github.com/yourusername/project4",
-        demo: "ex4.html"
+        image: "./images/ex4.jpg",
+        github: "https://github.com/Atliol/SFC-1_Ei_Mon/blob/main/html/ex4.html",
+        demo: "html/ex4.html"
     }
 
 ];
